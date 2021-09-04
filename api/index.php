@@ -1,5 +1,4 @@
 <?php
-
 // disable cache so that the image will be fetched every time
 $timestamp = gmdate("D, d M Y H:i:s") . " GMT";
 header("Expires: $timestamp");
